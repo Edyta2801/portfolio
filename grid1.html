@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Zadanie 1. Flexbox (Flexible Box)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Łukasz Krawczyk (Web Developer / Graphic &amp; Web Designer)" />
+
+    <style>
+        * { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; margin: 0; }
+        main { width: 100%; max-width: 1170px; margin: 0 auto; }
+        nav { background-color: #333; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav a { text-decoration: none; text-align: center; color: #fff; display: block; padding: 10px; }
+        nav a:hover, nav a:focus { background-color: #555; }
+        @media screen and (min-width: 768px) {
+            nav ul { display: flex; justify-content: flex-start; }
+            nav li { flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+        }
+    </style>
+
+</head>
+<body>
+
+	<main>
+		<nav>
+			<ul>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">O&nbsp;nas</a></li>
+				<li><a href="#">Oferta</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Zadanie 2. Flexbox (Flexible Box)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Łukasz Krawczyk (Web Developer / Graphic &amp; Web Designer)" />
+
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: "Helvetica Neue", Arial, sans-serif; margin: 0; }
+        section { background-color:#f1f1f1; padding: 5px; }
+        section h4 { text-align: center; }
+        header { padding: 60px; text-align: center; background-color: #ddd; }
+        aside { background-color: #f1f1f1; padding: 20px; }
+        article { background-color: #fff; padding: 20px; }
+        footer { padding: 20px; text-align: center; background-color: #ddd; }
+        @media screen and (min-width: 768px) {
+            main { display: flex; flex-direction: row; }
+            aside { flex-basis: 30%; }
+            article { flex-basis: 70%; }
+        }
+    </style>
+
+</head>
+<body>
+
+    <section>
+        <h4>Lorem ipsum dolor sit amet</h4>
+    </section>
+
+    <header>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+    </header>
+
+    <main>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis modi, magni nostrum deleniti consequatur in delectus maiores et, assumenda id aut reiciendis vitae eveniet voluptate 	odit. Ullam nulla suscipit sed?</p>
+        </aside>
+        <article>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est a natus esse eum quisquam quibusdam itaque aspernatur rem ut pariatur culpa ea praesentium repellat consectetur 	ipsum quas qui fuga?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod pariatur tempore perferendis velit. Unde, omnis? Dolore alias voluptatem corporis aspernatur veniam temporibus ipsam. 	Itaque quas assumenda at illum. Recusandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, molestias obcaecati necessitatibus provident minus culpa porro libero quasi doloribus dolores illo odit. Dolore ad 	architecto optio quam, natus exercitationem necessitatibus!</p>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Lorem ipsum dolor sit amet</h2>
+    </footer>
+
+</body>
+</html>
