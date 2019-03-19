@@ -1,13 +1,33 @@
-* { box-sizing: border-box; }
-body { font-family: "Helvetica Neue", Arial, sans-serif; margin: 0; }
-section { background-color:#f1f1f1; padding: 5px; }
-section h4 { text-align: center; }
-header { padding: 60px; text-align: center; background-color: #ddd; }
+* { box-sizing: border-box;}
+/* article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+} */
+body { font-family: "Helvetica Neue", Arial, sans-serif; margin:0; }
+section { background-color:#f1f1f1; padding: 15px;  text-align: center;}
+
 aside { background-color: #f1f1f1; padding: 20px; }
-article { background-color: #fff; padding: 20px; }
+section { background-color: #fff; padding: 20px; }
+
 footer { padding: 20px; text-align: center; background-color: #ddd; }
 @media screen and (min-width: 768px) {
-    main { display: flex; flex-direction: row; }
+    main { display: flex; flex-direction: row }
     aside { flex-basis: 30%; }
-    article { flex-basis: 70%; }
+    section { flex-basis: 70%; }
+  footer { display: flex; flex-direction: row;
+    padding: 2.25em 1.5em;}
 }
+/* @media screen and (max-width: 980px){
+footer {
+    background-attachment: scroll;
+    background-color: #1f1815;
+    background-image: url(images/overlay.png), url(../../images/bg.jpg);
+    background-position: top left,	bottom center;
+    background-repeat: repeat,	no-repeat;
+    background-size: auto,	cover;
+    bottom: auto;
+    left: auto;
+    padding: 4em 4em 6em 4em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+} */
