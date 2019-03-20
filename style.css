@@ -9,8 +9,8 @@ aside { background-color: #f1f1f1; padding: 20px; }
 section { background-color: #fff; padding: 20px; }
 
 footer { padding: 20px; text-align: center; background-color: #ddd; }
-@media screen and (min-width: 768px) {
-    main { display: flex; flex-direction: row }
+@media screen and (min-width: 980px) {
+   .container { display: flex; flex-direction: row }
     aside { flex-basis: 30%; }
     section { flex-basis: 70%; }
   footer { display: flex; flex-direction: row;
