@@ -16,7 +16,21 @@ footer { padding: 20px; text-align: center; background-color: #ddd; }
   footer { display: flex; flex-direction: row;
     padding: 2.25em 1.5em;}
 }
-/* @media screen and (max-width: 980px){
+
+
+media screen and (max-width: 980px){
+#aside {
+    background-attachment: scroll;
+    background-position: top left, center center;
+    background-size: auto,	cover;
+    left: auto;
+    padding: 6em 4em;
+    position: relative;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    display: block;
+}
 footer {
     background-attachment: scroll;
     background-color: #1f1815;
@@ -30,4 +44,4 @@ footer {
     position: relative;
     text-align: center;
     width: 100%;
-}  */
+}
