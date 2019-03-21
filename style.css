@@ -10,7 +10,7 @@ section { background-color: #fff; padding: 20px; }
 
 footer { padding: 20px; text-align: center; background-color: #ddd; }
 @media screen and (min-width: 980px) {
-   .container { display: flex; flex-direction: row }
+   .inner { display: flex; flex-direction: row }
     aside { flex-basis: 30%; }
     section { flex-basis: 70%; }
   footer { display: flex; flex-direction: row;
