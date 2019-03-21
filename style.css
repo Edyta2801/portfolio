@@ -29,7 +29,7 @@ media screen and (max-width: 980px){
     text-align: center;
     top: auto;
     width: 100%;
-    display: block;
+    display: block
 }
 footer {
     background-attachment: scroll;
