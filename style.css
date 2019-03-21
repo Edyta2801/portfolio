@@ -5,14 +5,14 @@
 body { font-family: "Helvetica Neue", Arial, sans-serif; margin:0; }
 section { background-color:#f1f1f1; padding: 15px;  text-align: center;}
 
-aside { background-color: #f1f1f1; padding: 20px; }
+.inner { background-color: #f1f1f1; padding: 20px; }
 section { background-color: #fff; padding: 20px; }
 
 footer { padding: 20px; text-align: center; background-color: #ddd; }
 @media screen and (min-width: 980px) {
-   .inner { display: flex; flex-direction: row }
-    aside { flex-basis: 30%; }
-    section { flex-basis: 70%; }
+   #header { display: flex; flex-direction: row }
+    .inner { flex-basis: 30%; }
+    section {display: flex; flex-direction: column;  flex-basis: 70%; }
   footer { display: flex; flex-direction: row;
     padding: 2.25em 1.5em;}
 }
