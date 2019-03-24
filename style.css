@@ -12,16 +12,17 @@ section { background-color: #fff; padding: 20px; }
 footer { padding: 20px; text-align: center; background-color: #ddd; }
 @media screen and (min-width: 980px) {
    #header { display: flex; flex-direction: row }
-    
+  
+
    .inner { flex-basis: 30%; }
-    section {display: flex; flex-direction: column;  flex-basis: 70%; }
+  section {display: flex; flex-direction: column;  flex-basis: 70%; }
   footer { display: flex; flex-direction: row;
     padding: 2.25em 1.5em;}
 }
 
 
-media screen and (max-width: 980px){
-#aside {
+/* media screen and (max-width: 980px){
+#header {
     background-attachment: scroll;
     background-position: top left, center center;
     background-size: auto,	cover;
@@ -31,7 +32,7 @@ media screen and (max-width: 980px){
     text-align: center;
     top: auto;
     width: 100%;
-    display: block
+    display: block;
 }
 footer {
     background-attachment: scroll;
@@ -47,3 +48,4 @@ footer {
     text-align: center;
     width: 100%;
 }
+} */
