@@ -7,20 +7,30 @@ margin:0;
 
 #header
 {
-    position:absolute;
-    top:5px;
-    left:5px;
-    background-color:yellow;
-    width:300px;
-    text-align: center;
-    float:left;
+    position: absolute;
+    top:50%;
+    margin-top:-150px;
+    left:0;
+    width:100%;
+
 }
 
+.inner{
+    margin:0 auto;
+    width:300px;
+}
+
+
+/* 
 #main
 {
+    position:absolute;
     background-color: red;
     margin-left: 310px;
     text-align: center;
+    float:left;
+    width:70%;
+    
 }
 #footer
 {
@@ -30,7 +40,8 @@ margin:0;
     background-color:yellow;
     width:300px;
     text-align: center;
-}
+    float:left;
+} */
 
 
 
