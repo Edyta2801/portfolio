@@ -12,14 +12,25 @@ margin:0;
     left:5px;
     background-color:yellow;
     width:300px;
+    text-align: center;
+    float:left;
 }
 
 #main
 {
     background-color: red;
     margin-left: 310px;
+    text-align: center;
 }
-
+#footer
+{
+    position:absolute;
+    top:500px;
+    left:5px;
+    background-color:yellow;
+    width:300px;
+    text-align: center;
+}
 
 
 
