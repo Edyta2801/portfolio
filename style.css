@@ -1,14 +1,8 @@
-/* body{
-box-sizing: border-box;
+body{
 color:white;
-font-size:80%;
 height:100vh;
-display:flex;
-flex-direction: row;
 margin:0;
-
-
-} */
+}
 
 #header{
     box-sizing: border-box;
