@@ -1,14 +1,14 @@
-body
-{ box-sizing: border-box;
+/* body{
+box-sizing: border-box;
 color:white;
 font-size:80%;
-padding: 1em;
 height:100vh;
 display:flex;
 flex-direction: row;
+margin:0;
 
 
-}
+} */
 
 #header{
     box-sizing: border-box;
@@ -24,96 +24,3 @@ flex:1;
     flex:1;
 }
 
-
-/* #footer
-{
-    position:absolute;
-    top:500px;
-    left:5px;
-    background-color:yellow;
-    width:300px;
-    text-align: center;
-    float:left;
-} */ */
-}
-@media screen and (max-width:500px){
-    body{
-        flex-direction:row;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-    
-} 
-body { font-family: "Helvetica Neue", Arial, sans-serif; margin:0; }
-section { background-color:#f1f1f1; padding: 15px;  text-align: center;}
-
-.inner { background-color: #f1f1f1; padding: 20px; }
-section { background-color: #fff; padding: 20px; }
-
-footer { padding: 20px; text-align: center; background-color: #ddd; }
-@media screen and (min-width: 980px) {
-   #header { display: flex; flex-direction: row }
-  
-
-   .inner { flex-basis: 30%; }
-  section {display: flex; flex-direction: column;  flex-basis: 70%; }
-  footer { display: flex; flex-direction: row;
-    padding: 2.25em 1.5em;}
-} */
-
-
-/* media screen and (max-width: 980px){
-#header {
-    background-attachment: scroll;
-    background-position: top left, center center;
-    background-size: auto,	cover;
-    left: auto;
-    padding: 6em 4em;
-    position: relative;
-    text-align: center;
-    top: auto;
-    width: 100%;
-    display: block;
-}
-footer {
-    background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url(images/overlay.png), url(../../images/bg.jpg);
-    background-position: top left,	bottom center;
-    background-repeat: repeat,	no-repeat;
-    background-size: auto,	cover;
-    bottom: auto;
-    left: auto;
-    padding: 4em 4em 6em 4em;
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-} */
