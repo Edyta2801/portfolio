@@ -1,20 +1,23 @@
 body{
-color:white;
 height:100vh;
 margin:0;
 }
 
-#header{
-    box-sizing: border-box;
-height:100%;
+#top{
 display:flex;
+flex-wrap:wrap;
+}
+
+#header{
 background-color: grey;
+box-sizing: border-box;
 flex:1;
 }
 
-#main
-{
-    box-sizing: border-box;
-    flex:1;
+
+#main{
+background-color:white;
+box-sizing:border-box;
+flex:1;
 }
 
