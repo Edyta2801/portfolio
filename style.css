@@ -9,9 +9,12 @@ flex-wrap:nowrap
 }
 
 .header{
-background-color: grey;
 box-sizing: border-box;
 flex:1;
+background-image: url("images/animal-avian-bird-875858.jpg");
+color:white;
+background-size: cover;
+opacity: 20;
 
 }
 
@@ -27,5 +30,4 @@ flex:2;
     flex-direction: column;
 
 } 
-
 } 
