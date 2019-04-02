@@ -26,7 +26,7 @@ margin:0 auto;
 }
 
 .item{
-margin-top: 30px;
+/* margin-top: 30px; */
     position:-webkit-sticky;
     position: sticky;
     top: 0;
