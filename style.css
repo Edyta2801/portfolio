@@ -1,22 +1,43 @@
+*{
+    box-sizing:border-box;
+}
+
 body{
 height:100vh;
 margin:0;
+text-align: center;
 }
 
 .container{
 display:flex;
-flex-wrap:nowrap
+flex-wrap:nowrap;
 }
 
 .header{
 box-sizing: border-box;
 flex:1;
-background-image: url("images/animal-avian-bird-875858.jpg");
-color:white;
+background: url(images/animal-avian-bird-875858.jpg) no-repeat;
 background-size: cover;
-opacity: 20;
+color:white;
+display: flex;
+width:100%;
+margin:0 auto;
 
 }
+
+.item{
+margin-top: 30px;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
 
 
 .main{
@@ -25,9 +46,10 @@ box-sizing:border-box;
 flex:2;
 }
 
+
 @media screen and (max-width:800px){
 .container{
     flex-direction: column;
 
-} 
-} 
+}
+}
